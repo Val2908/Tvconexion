@@ -18,6 +18,9 @@ public class Conexion {
   //
   // Constructors
   //
+  public conexion(ssid, clave, usuario){
+	  this
+  }
   //Herrera improvement public Wifi () { };
   
   //
@@ -80,5 +83,8 @@ public class Conexion {
   //
   // Other methods
   //
+  public String toString(){
+	  return "Se esta conectado por " + this.getClass().getCanonicalName();
+  }
 
 }

@@ -10,7 +10,9 @@ public class ConexionWifi extends Conexion{
   //
   // Fields
   //
-
+	public ConexionWifi(){
+		super(ssid, clave, usuario);
+	}
  /*
   
   Ver super clase Conexion 
