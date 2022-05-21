@@ -6,7 +6,9 @@ package PConexiones;
  * Class Wifi
  */
 public class ConexionWifi extends Conexion{
-
+String SSID;
+String clave;
+String usuario;
   //
   // Fields
   //
@@ -32,6 +34,12 @@ public class ConexionWifi extends Conexion{
   //
   // Accessor methods
   //
+
+    public ConexionWifi(String SSID, String clave, String usuario) {
+        this.SSID = SSID;
+        this.clave = clave;
+        this.usuario = usuario;
+    }
 
   
 
